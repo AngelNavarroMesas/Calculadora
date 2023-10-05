@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         calculadora.botonSumar.setOnClickListener(object : View.OnClickListener{
             override fun onClick(p0: View?) {
-                calculadora.numResultado.text = calculadora.numero2.text
+//                calculadora.numResultado.text = calculadora.numero2.text.toString().toDouble()
             }
         })
 
